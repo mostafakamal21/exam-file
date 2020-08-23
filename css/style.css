@@ -1,0 +1,93 @@
+/**
+* Template Name: My_iPortfolio - v1.0.0
+* Template URL: 
+* Author: Mostafa kamal
+* License: 
+*/
+
+/*--------------------------------------# General--------------------------------------*/
+
+ 
+
+
+body {
+   font-family: "Open Sans", sans-serif;
+  /* font-family: 'Pacifico', cursive;*/
+ 
+}
+
+.navbar{
+  padding: 0;
+}
+.navbar .nav-link{
+  color:#000;
+  font-weight: 600;
+}
+.navbar-brand img{
+  width: 120px;
+  height: 70px;
+}
+
+
+
+.carousel-left h1{
+  color:#000;
+  font-weight: 700;
+}
+.btn-dark{
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.slider-img img{
+  width: 600px;
+  height: 500px;
+}
+
+.carousel-indicators li {
+   
+    background-color: #fdf002;;
+}
+.card{
+  padding: 20px;
+ box-shadow: 5px 5px 15px lightgrey;
+ border-radius: 10px;
+ border:none;
+}
+.card-title h4{
+  color:#000;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 10px 0;
+  
+}
+.card img{
+  width: 100%;
+  height: 300px;
+}
+.price{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.cat-heading{
+  position: relative;
+}
+.cat h1:after{
+  content:'';
+  position: absolute;
+  left: 45%;
+  top: 50px;
+  width: 100px;
+  height: 6px; 
+  background: #f2709c; 
+  background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  
+  background: linear-gradient(to right, #ff9472, #f2709c);
+  border-radius: 10px;
+}
+
+.cat-img img{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 3px 15px 3px 15px;
+  box-shadow: 5px 5px 15px lightgrey; 
+}
